@@ -1,0 +1,249 @@
+{
+ "accountData": {
+  "description": "Account data title",
+  "message": "Account"
+ },
+ "appDesc": {
+  "description": "Extension description",
+  "message": "Track X usage time and account stats, with a daily summary at 23:05. All data stays local."
+ },
+ "appName": {
+  "description": "Extension name",
+  "message": "X Helper"
+ },
+ "axis0": {
+  "message": "0"
+ },
+ "axis12": {
+  "message": "12"
+ },
+ "axis24": {
+  "message": "24"
+ },
+ "dailyEmpty": {
+  "message": "No X usage recorded today"
+ },
+ "dailyFollowers": {
+  "message": "Followers: $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "dailyPosts": {
+  "message": "$1 new posts today",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "dailyUsage": {
+  "message": "$1 on X today, $2 opens",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   },
+   "2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fmtHoursMinutes": {
+  "message": "$1h $2m",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   },
+   "2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fmtMinutes": {
+  "message": "$1 min",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "followers": {
+  "message": "Followers"
+ },
+ "following": {
+  "message": "Following"
+ },
+ "hours24": {
+  "message": "24-hour distribution"
+ },
+ "last7days": {
+  "message": "Last 7 days"
+ },
+ "localOnly": {
+  "message": "Data stays on this device"
+ },
+ "noData": {
+  "message": "No data yet — browse x.com a while, then come back"
+ },
+ "openProfileHint": {
+  "message": "Open your X profile to refresh"
+ },
+ "opensCount": {
+  "message": "$1 opens",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "posts": {
+  "message": "Posts"
+ },
+ "postsToday": {
+  "message": "$1 posts today",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowFollowers": {
+  "message": "$1 followers",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowOpened": {
+  "message": "$1 opens",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowPosts": {
+  "message": "$1 posts",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "tagline": {
+  "message": "X usage stats · stored locally"
+ },
+ "todayUsage": {
+  "message": "Today"
+ },
+ "updatedAt": {
+  "message": "Updated $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "aiBtn": {
+  "message": "✦ AI reply"
+ },
+ "aiPanelTitle": {
+  "message": "AI reply ideas"
+ },
+ "aiTplFun": {
+  "message": "Playful"
+ },
+ "aiTplView": {
+  "message": "Add a take"
+ },
+ "aiTplWarm": {
+  "message": "Friendly"
+ },
+ "aiGenerating": {
+  "message": "Generating…"
+ },
+ "aiNeedLogin": {
+  "message": "Please log in to X and refresh the page"
+ },
+ "aiNeedGrok": {
+  "message": "Send any message at x.com/i/grok first, then try again"
+ },
+ "aiTxExpired": {
+  "message": "Signature expired, please refresh X and retry"
+ },
+ "aiFailed": {
+  "message": "Grok request failed: $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "aiEmpty": {
+  "message": "No candidates parsed, try another template"
+ },
+ "aiNoParent": {
+  "message": "Open a tweet's reply box first"
+ },
+ "aiUse": {
+  "message": "Click to insert into the reply box"
+ },
+ "aiTplAsk": {
+  "message": "Ask"
+ },
+ "jevJudging": {
+  "message": "Jev is judging intent…"
+ },
+ "jevRecommend": {
+  "message": "Jev recommends: $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "jevSkip": {
+  "message": "Jev suggests skipping this one"
+ },
+ "jevNotWorth": {
+  "message": "low growth value"
+ },
+ "jevRisky": {
+  "message": "flame/policy risk"
+ },
+ "jevStillGo": {
+  "message": "Generate anyway"
+ },
+ "jevNoKey": {
+  "message": "Paste your TypeSafe API key in settings below first"
+ },
+ "jevSettings": {
+  "message": "Jev intent judgment"
+ },
+ "jevKeyPlaceholder": {
+  "message": "Paste TYPESAFE_API_KEY"
+ },
+ "jevSave": {
+  "message": "Save"
+ },
+ "jevKeySaved": {
+  "message": "Saved locally, this device only"
+ },
+ "jevBadKey": {
+  "message": "Invalid API key (401), please check and save again"
+ },
+ "jevRateLimit": {
+  "message": "Too many requests, try again later"
+ },
+ "jevFailed": {
+  "message": "Jev request failed: $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ }
+}

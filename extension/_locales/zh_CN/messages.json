@@ -1,0 +1,249 @@
+{
+ "accountData": {
+  "description": "账号数据标题",
+  "message": "账号数据"
+ },
+ "appDesc": {
+  "description": "插件描述",
+  "message": "记录 X 使用时长与账号数据，每晚 23:05 推送当日总结。数据只存本地。"
+ },
+ "appName": {
+  "description": "插件名称",
+  "message": "X Helper"
+ },
+ "axis0": {
+  "message": "0点"
+ },
+ "axis12": {
+  "message": "12点"
+ },
+ "axis24": {
+  "message": "24点"
+ },
+ "dailyEmpty": {
+  "message": "今天还没有 X 使用记录"
+ },
+ "dailyFollowers": {
+  "message": "粉丝 $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "dailyPosts": {
+  "message": "今日新增发帖 $1 条",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "dailyUsage": {
+  "message": "今日使用 $1，打开 $2 次",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   },
+   "2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fmtHoursMinutes": {
+  "message": "$1 小时 $2 分",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   },
+   "2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fmtMinutes": {
+  "message": "$1 分钟",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "followers": {
+  "message": "粉丝数"
+ },
+ "following": {
+  "message": "正在关注"
+ },
+ "hours24": {
+  "message": "24 小时分布"
+ },
+ "last7days": {
+  "message": "最近 7 天"
+ },
+ "localOnly": {
+  "message": "数据只存本机"
+ },
+ "noData": {
+  "message": "暂无数据，去 x.com 逛一会儿再回来看看"
+ },
+ "openProfileHint": {
+  "message": "打开 X 个人主页自动刷新"
+ },
+ "opensCount": {
+  "message": "打开 $1 次",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "posts": {
+  "message": "帖子数"
+ },
+ "postsToday": {
+  "message": "今日发布 $1 条",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowFollowers": {
+  "message": "粉丝 $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowOpened": {
+  "message": "打开 $1 次",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "rowPosts": {
+  "message": "发帖 $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "tagline": {
+  "message": "X 使用统计 · 数据只存本机"
+ },
+ "todayUsage": {
+  "message": "今日使用"
+ },
+ "updatedAt": {
+  "message": "更新于 $1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "aiBtn": {
+  "message": "✦ AI评论"
+ },
+ "aiPanelTitle": {
+  "message": "AI 评论候选"
+ },
+ "aiTplFun": {
+  "message": "幽默接梗"
+ },
+ "aiTplView": {
+  "message": "观点补充"
+ },
+ "aiTplWarm": {
+  "message": "友好互动"
+ },
+ "aiGenerating": {
+  "message": "生成中…"
+ },
+ "aiNeedLogin": {
+  "message": "请先登录 X 并刷新页面"
+ },
+ "aiNeedGrok": {
+  "message": "先去 x.com/i/grok 随便发一条消息，再回来点生成"
+ },
+ "aiTxExpired": {
+  "message": "签名已过期，请刷新 X 后重试"
+ },
+ "aiFailed": {
+  "message": "Grok 请求失败：$1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "aiEmpty": {
+  "message": "没解析到候选评论，换个模板试试"
+ },
+ "aiNoParent": {
+  "message": "在推文回复框里点我才有效"
+ },
+ "aiUse": {
+  "message": "点击填入回复框"
+ },
+ "aiTplAsk": {
+  "message": "提问请教"
+ },
+ "jevJudging": {
+  "message": "Jev 判断意图中…"
+ },
+ "jevRecommend": {
+  "message": "Jev 推荐：$1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ },
+ "jevSkip": {
+  "message": "Jev 建议别回这条"
+ },
+ "jevNotWorth": {
+  "message": "涨粉性价比低"
+ },
+ "jevRisky": {
+  "message": "有引战/违规风险"
+ },
+ "jevStillGo": {
+  "message": "仍要生成"
+ },
+ "jevNoKey": {
+  "message": "先在下方设置里填入 TypeSafe API Key，再试"
+ },
+ "jevSettings": {
+  "message": "Jev 意图判断"
+ },
+ "jevKeyPlaceholder": {
+  "message": "粘贴 TYPESAFE_API_KEY"
+ },
+ "jevSave": {
+  "message": "保存"
+ },
+ "jevKeySaved": {
+  "message": "已保存到本地，仅本机使用"
+ },
+ "jevBadKey": {
+  "message": "API Key 无效（401），请检查后重新保存"
+ },
+ "jevRateLimit": {
+  "message": "请求太频繁，稍后再试"
+ },
+ "jevFailed": {
+  "message": "Jev 请求失败：$1",
+  "placeholders": {
+   "1": {
+    "content": "$1"
+   }
+  }
+ }
+}
