@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X Helper</string>
+    <string name="service_desc">用于记录 X 应用的打开/关闭与使用时长，并在你打开自己主页时读取粉丝数、关注数与推文数。所有数据仅保存在本机，不联网上传。</string>
+
+    <!-- 通用 -->
+    <string name="saved">已保存</string>
+    <string name="close">关闭</string>
+    <string name="ongoing">进行中</string>
+    <string name="empty">(空)</string>
+    <string name="none">(无)</string>
+
+    <!-- 主页标题 -->
+    <string name="app_subtitle">X 使用统计 · 数据只存本机</string>
+
+    <!-- 统计页 -->
+    <string name="status_checking">检测中…</string>
+    <string name="status_on">● 已开启，正在记录</string>
+    <string name="status_off">○ 未开启：点下方按钮去系统设置 → 无障碍中打开「X Helper」</string>
+    <string name="btn_open_service">去系统设置里开启</string>
+    <string name="sec_today">今日使用</string>
+    <string name="today_meta">打开 %1$d 次 · 平均每次 %2$s · %3$s – %4$s</string>
+    <string name="sec_hours">24 小时分布</string>
+    <string name="hours_axis">0点 ← → 24点</string>
+    <string name="session_row">%1$s–%2$s（%3$s）</string>
+    <string name="no_sessions">今天还没打开过 X</string>
+    <string name="sec_account">账号数据</string>
+    <string name="stat_followers">粉丝数</string>
+    <string name="stat_following">正在关注</string>
+    <string name="stat_posts">帖子数</string>
+    <string name="no_snapshot">暂无数据：点开你的 X 个人主页停留几秒</string>
+    <string name="snap_updated">更新于 %1$s</string>
+    <string name="today_posts">今日发布 %1$d 条\n</string>
+    <string name="today_followers">今日粉丝 %1$d→%2$d（%3$s）</string>
+    <string name="snap_single">今日快照只有一次，算不出变化</string>
+    <string name="no_snapshot_today">今日还没有快照</string>
+    <string name="sec_week">最近7天</string>
+    <string name="week_row">%1$s 打开%2$d次 %3$s</string>
+    <string name="week_followers"> 粉丝%1$s</string>
+    <string name="week_posts"> 发帖%1$s</string>
+    <string name="no_week">暂无日报（每晚 23:05 自动生成）</string>
+    <string name="tab_stats">统计</string>
+    <string name="tab_settings">设置</string>
+
+    <!-- 设置页 -->
+    <string name="settings_title">设置</string>
+    <string name="label_handle">你的 X 用户名（含 @）</string>
+    <string name="label_package">X 应用包名（一般不用改）</string>
+    <string name="btn_save">保存设置</string>
+    <string name="sec_overlay">悬浮窗</string>
+    <string name="overlay_ok">● 悬浮窗通道正常：打开 X 时会自动显示悬浮球</string>
+    <string name="overlay_err">⚠ %1$s</string>
+    <string name="btn_test_ball">测试悬浮球</string>
+    <string name="btn_overlay_perm">去开启“显示在其他应用上层”权限</string>
+    <string name="sec_keepalive">后台保活</string>
+    <string name="btn_battery">加电池优化白名单（防杀后台）</string>
+    <string name="alarm_ok">● 精确闹钟可用（23:05 总结将准时推送）</string>
+    <string name="alarm_missing">○ 未授权精确闹钟：总结可能延迟，点下方按钮授权</string>
+    <string name="btn_alarm">允许精确闹钟（23:05 准时总结）</string>
+    <string name="sec_export">数据导出</string>
+    <string name="btn_export_csv">导出 CSV 到下载目录</string>
+    <string name="btn_dump">导出当前屏幕节点树（调试用）</string>
+    <string name="btn_share_dump">分享节点树文件</string>
+    <string name="btn_reset_day">重置今日记录</string>
+    <string name="sec_calib">节点校准</string>
+    <string name="btn_clear_calib">清除节点校准</string>
+    <string name="sec_about">关于</string>
+    <string name="about_me">个人关于</string>
+    <string name="about_me_sub">@idsahm · 在 X 上找到我</string>
+    <string name="about_version">X Helper v%1$s</string>
+
+    <!-- 重置确认 -->
+    <string name="reset_confirm_title">重置今日记录？</string>
+    <string name="reset_confirm_msg">将清除今天的全部使用记录、数据快照和日报，此操作不可恢复。</string>
+    <string name="reset_done">今日记录已重置</string>
+
+    <!-- Toast / 提示 -->
+    <string name="battery_manual">请在系统设置 → 电池中手动允许本应用后台运行</string>
+    <string name="alarm_not_needed">当前系统不需要此权限</string>
+    <string name="alarm_manual">请在系统设置中允许本应用的“闹钟与提醒”</string>
+    <string name="service_not_on">无障碍服务还没开，先去系统设置里打开</string>
+    <string name="dump_ready">已就绪：现在去打开你的 X 个人主页，停留几秒</string>
+    <string name="calib_cleared">已清除校准，恢复通用解析</string>
+    <string name="testing_ball">正在测试悬浮球…</string>
+    <string name="overlay_manual">请在系统设置中允许本应用“显示在其他应用上层”</string>
+    <string name="dump_exported_to">已导出：%1$s</string>
+    <string name="dump_exported">节点树已导出</string>
+    <string name="export_done">已导出到 下载/XTracker/%1$s</string>
+    <string name="export_fail">导出失败：%1$s</string>
+    <string name="file_create_fail">无法创建文件</string>
+    <string name="no_dump">还没有导出过节点树</string>
+    <string name="dump_gone">文件已不存在，请重新导出</string>
+    <string name="share_unsupported">系统版本过低，无法分享</string>
+    <string name="share_title">分享节点树</string>
+    <string name="share_fail">分享失败：%1$s</string>
+    <string name="last_dump">最近导出：%1$s</string>
+    <string name="calib_label">节点校准：</string>
+    <string name="calib_f_on">粉丝数● </string>
+    <string name="calib_f_off">粉丝数○ </string>
+    <string name="calib_g_on">关注数●</string>
+    <string name="calib_g_off">关注数○</string>
+
+    <!-- 时长 -->
+    <string name="dur_h">%1$d小时%2$d分</string>
+    <string name="dur_m">%1$d分</string>
+    <string name="dur_s">%1$d秒</string>
+
+    <!-- 通知 -->
+    <string name="ch_summary">晚间总结</string>
+    <string name="ch_reminder">数据提醒</string>
+    <string name="summary_title">X Helper 日报 %1$s</string>
+    <string name="sum_opens">打开 X %1$d 次，共 %2$s</string>
+    <string name="sum_followers">粉丝 %1$d→%2$d（%3$s）</string>
+    <string name="sum_no_followers">粉丝数据缺失：记得每天点开一次主页</string>
+    <string name="sum_posts">推文 %1$d→%2$d（%3$s）</string>
+    <string name="reminder_title">今晚总结前补一次数据</string>
+    <string name="reminder_text">点开你的 X 个人主页停留几秒，X Helper 会自动记录粉丝数与推文数</string>
+    <string name="dump_ready_title">抓取就绪</string>
+    <string name="dump_ready_text">现在去打开你的 X 个人主页并停留几秒，X Helper 会自动抓取屏幕结构</string>
+
+    <!-- 悬浮窗 -->
+    <string name="ball_shown">悬浮球已显示（蓝色🔍，可拖动）</string>
+    <string name="ball_fail">悬浮球显示失败：%1$s</string>
+    <string name="menu_dump">抓取节点树</string>
+    <string name="menu_inspect">点选查看</string>
+    <string name="menu_hide">隐藏悬浮球</string>
+    <string name="dumping">正在抓取当前 X 界面…</string>
+    <string name="ball_hidden">悬浮球已隐藏，重进 X 会再出现</string>
+    <string name="inspect_hint">点选模式：点一下界面上的任意位置</string>
+    <string name="inspect_exit">✕ 退出点选</string>
+    <string name="info_type">类型</string>
+    <string name="info_text">文本</string>
+    <string name="info_id">viewId</string>
+    <string name="info_bounds">坐标</string>
+    <string name="info_copy">复制文本</string>
+    <string name="copied">已复制文本</string>
+    <string name="info_highlight">高亮显示</string>
+    <string name="info_calib_f">设为粉丝数校准点</string>
+    <string name="calib_f_done">已设为粉丝数校准点</string>
+    <string name="info_calib_g">设为关注数校准点</string>
+    <string name="calib_g_done">已设为关注数校准点</string>
+    <string name="overlay_fallback">提示：无障碍通道被系统拦截，已自动改用普通悬浮窗（功能正常）</string>
+    <string name="channel_a11y">无障碍通道</string>
+    <string name="channel_overlay">普通悬浮窗</string>
+    <string name="overlay_perm_hint">（需在系统设置中允许“显示在其他应用上层”）</string>
+    <string name="overlay_add_fail">%1$s添加失败%2$s：%3$s</string>
+    <string name="link_fail">无法打开链接</string>
+    <string name="sec_log">运行日志</string>
+    <string name="log_hint">闪退时把日志发给开发者，可快速定位问题</string>
+    <string name="btn_export_log">导出日志</string>
+    <string name="log_dialog_title">运行日志</string>
+    <string name="log_path_label">日志路径</string>
+    <string name="btn_copy_path">复制路径</string>
+    <string name="btn_share_log">分享日志</string>
+    <string name="log_copied">路径已复制</string>
+    <string name="log_no_file">暂无日志文件</string>
+    <string name="log_share_title">分享运行日志</string>
+</resources>

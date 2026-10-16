@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X Helper</string>
+    <string name="service_desc">Records when X opens/closes and how long you use it, and reads follower/following/post counts when you open your own profile. All data stays on this device, nothing is uploaded.</string>
+
+    <!-- Common -->
+    <string name="saved">Saved</string>
+    <string name="close">Close</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="empty">(empty)</string>
+    <string name="none">(none)</string>
+
+    <!-- Header -->
+    <string name="app_subtitle">X usage stats · data stays on device</string>
+
+    <!-- Stats page -->
+    <string name="status_checking">Checking…</string>
+    <string name="status_on">● Enabled, tracking</string>
+    <string name="status_off">○ Not enabled: tap below → Accessibility → turn on \"X Helper\"</string>
+    <string name="btn_open_service">Open in system settings</string>
+    <string name="sec_today">Today</string>
+    <string name="today_meta">%1$d opens · %2$s avg · %3$s – %4$s</string>
+    <string name="sec_hours">24-hour breakdown</string>
+    <string name="hours_axis">12am ← → 12am</string>
+    <string name="session_row">%1$s–%2$s (%3$s)</string>
+    <string name="no_sessions">X hasn\'t been opened today</string>
+    <string name="sec_account">Account</string>
+    <string name="stat_followers">Followers</string>
+    <string name="stat_following">Following</string>
+    <string name="stat_posts">Posts</string>
+    <string name="no_snapshot">No data yet: open your X profile and stay a few seconds</string>
+    <string name="snap_updated">Updated %1$s</string>
+    <string name="today_posts">%1$d posts today\n</string>
+    <string name="today_followers">Followers %1$d→%2$d (%3$s) today</string>
+    <string name="snap_single">Only one snapshot today, can\'t compute changes</string>
+    <string name="no_snapshot_today">No snapshots today</string>
+    <string name="sec_week">Last 7 days</string>
+    <string name="week_row">%1$s · %2$d opens · %3$s</string>
+    <string name="week_followers"> followers %1$s</string>
+    <string name="week_posts"> posts %1$s</string>
+    <string name="no_week">No reports yet (auto-generated nightly at 23:05)</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Settings page -->
+    <string name="settings_title">Settings</string>
+    <string name="label_handle">Your X handle (with @)</string>
+    <string name="label_package">X app package (usually no need to change)</string>
+    <string name="btn_save">Save</string>
+    <string name="sec_overlay">Floating ball</string>
+    <string name="overlay_ok">● Floating channel OK: ball appears when X is opened</string>
+    <string name="overlay_err">⚠ %1$s</string>
+    <string name="btn_test_ball">Test floating ball</string>
+    <string name="btn_overlay_perm">Allow \"Display over other apps\" permission</string>
+    <string name="sec_keepalive">Keep alive</string>
+    <string name="btn_battery">Battery whitelist (prevent background kill)</string>
+    <string name="alarm_ok">● Exact alarm OK (23:05 summary on time)</string>
+    <string name="alarm_missing">○ Exact alarm not granted: summary may be delayed, tap below</string>
+    <string name="btn_alarm">Allow exact alarms (23:05 sharp summary)</string>
+    <string name="sec_export">Export</string>
+    <string name="btn_export_csv">Export CSV to Downloads</string>
+    <string name="btn_dump">Dump current screen node tree (debug)</string>
+    <string name="btn_share_dump">Share node tree file</string>
+    <string name="btn_reset_day">Reset today\'s records</string>
+    <string name="sec_calib">Node calibration</string>
+    <string name="btn_clear_calib">Clear calibration</string>
+    <string name="sec_about">About</string>
+    <string name="about_me">About me</string>
+    <string name="about_me_sub">@idsahm · Find me on X</string>
+    <string name="about_version">X Helper v%1$s</string>
+
+    <!-- Reset confirmation -->
+    <string name="reset_confirm_title">Reset today\'s records?</string>
+    <string name="reset_confirm_msg">This clears today\'s usage sessions, snapshots and daily summary. This cannot be undone.</string>
+    <string name="reset_done">Today\'s records have been reset</string>
+
+    <!-- Toasts / hints -->
+    <string name="battery_manual">Please allow this app to run in background in system Settings → Battery</string>
+    <string name="alarm_not_needed">Not needed on this Android version</string>
+    <string name="alarm_manual">Please allow \"Alarms &amp; reminders\" for this app in system settings</string>
+    <string name="service_not_on">Accessibility service is off, turn it on in system settings first</string>
+    <string name="dump_ready">Ready: now open your X profile and stay a few seconds</string>
+    <string name="calib_cleared">Calibration cleared, back to generic parsing</string>
+    <string name="testing_ball">Testing floating ball…</string>
+    <string name="overlay_manual">Please allow \"Display over other apps\" for this app in system settings</string>
+    <string name="dump_exported_to">Exported: %1$s</string>
+    <string name="dump_exported">Node tree exported</string>
+    <string name="export_done">Exported to Downloads/XTracker/%1$s</string>
+    <string name="export_fail">Export failed: %1$s</string>
+    <string name="file_create_fail">Couldn\'t create file</string>
+    <string name="no_dump">No node tree exported yet</string>
+    <string name="dump_gone">File no longer exists, please export again</string>
+    <string name="share_unsupported">System version too old to share</string>
+    <string name="share_title">Share node tree</string>
+    <string name="share_fail">Share failed: %1$s</string>
+    <string name="last_dump">Last export: %1$s</string>
+    <string name="calib_label">Calibration: </string>
+    <string name="calib_f_on">Followers● </string>
+    <string name="calib_f_off">Followers○ </string>
+    <string name="calib_g_on">Following●</string>
+    <string name="calib_g_off">Following○</string>
+
+    <!-- Durations -->
+    <string name="dur_h">%1$dh %2$dm</string>
+    <string name="dur_m">%1$dm</string>
+    <string name="dur_s">%1$ds</string>
+
+    <!-- Notifications -->
+    <string name="ch_summary">Nightly summary</string>
+    <string name="ch_reminder">Data reminders</string>
+    <string name="summary_title">X Helper daily report %1$s</string>
+    <string name="sum_opens">Opened X %1$d times, %2$s total</string>
+    <string name="sum_followers">Followers %1$d→%2$d (%3$s)</string>
+    <string name="sum_no_followers">No follower data: remember to open your profile once a day</string>
+    <string name="sum_posts">Posts %1$d→%2$d (%3$s)</string>
+    <string name="reminder_title">Top up data before tonight\'s summary</string>
+    <string name="reminder_text">Open your X profile and stay a few seconds — X Helper will record followers &amp; posts</string>
+    <string name="dump_ready_title">Ready to capture</string>
+    <string name="dump_ready_text">Now open your X profile and stay a few seconds, X Helper will capture the screen structure</string>
+
+    <!-- Overlay -->
+    <string name="ball_shown">Floating ball shown (blue 🔍, draggable)</string>
+    <string name="ball_fail">Floating ball failed: %1$s</string>
+    <string name="menu_dump">Dump node tree</string>
+    <string name="menu_inspect">Inspect by tap</string>
+    <string name="menu_hide">Hide ball</string>
+    <string name="dumping">Capturing current X screen…</string>
+    <string name="ball_hidden">Ball hidden, it will reappear when X opens</string>
+    <string name="inspect_hint">Tap mode: tap anywhere on the screen</string>
+    <string name="inspect_exit">✕ Exit tap mode</string>
+    <string name="info_type">Type</string>
+    <string name="info_text">Text</string>
+    <string name="info_id">viewId</string>
+    <string name="info_bounds">Bounds</string>
+    <string name="info_copy">Copy text</string>
+    <string name="copied">Text copied</string>
+    <string name="info_highlight">Highlight</string>
+    <string name="info_calib_f">Set as followers calibration point</string>
+    <string name="calib_f_done">Set as followers calibration point</string>
+    <string name="info_calib_g">Set as following calibration point</string>
+    <string name="calib_g_done">Set as following calibration point</string>
+    <string name="overlay_fallback">Note: accessibility channel was blocked by the system, switched to normal overlay (works fine)</string>
+    <string name="channel_a11y">Accessibility channel</string>
+    <string name="channel_overlay">Normal overlay</string>
+    <string name="overlay_perm_hint">(allow \"Display over other apps\" in system settings)</string>
+    <string name="overlay_add_fail">%1$s failed%2$s: %3$s</string>
+    <string name="link_fail">Couldn\'t open link</string>
+    <string name="sec_log">Running log</string>
+    <string name="log_hint">If the app crashes, send the log to the developer to locate the issue</string>
+    <string name="btn_export_log">Export log</string>
+    <string name="log_dialog_title">Running log</string>
+    <string name="log_path_label">Log path</string>
+    <string name="btn_copy_path">Copy path</string>
+    <string name="btn_share_log">Share log</string>
+    <string name="log_copied">Path copied</string>
+    <string name="log_no_file">No log file yet</string>
+    <string name="log_share_title">Share running log</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- X 浅色风格配色 -->
+    <color name="x_bg">#FFFFFF</color>
+    <color name="x_card">#F7F9F9</color>
+    <color name="x_border">#EFF3F4</color>
+    <color name="x_text">#0F1419</color>
+    <color name="x_text2">#536471</color>
+    <color name="x_hint">#8B98A5</color>
+    <color name="x_blue">#1D9BF0</color>
+    <color name="x_blue_dark">#1A8CD8</color>
+    <color name="seed">#1D9BF0</color>
+    <color name="x_hero_bg">#E7F2FD</color>
+    <color name="x_track">#EAF3FB</color>
+    <color name="x_outline">#B9DDF8</color>
+
+    <style name="Theme.XTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/x_blue</item>
+        <item name="android:colorAccent">@color/x_blue</item>
+        <item name="android:windowBackground">@color/x_bg</item>
+        <item name="android:textColorPrimary">@color/x_text</item>
+        <item name="android:textColorSecondary">@color/x_text2</item>
+        <item name="android:textColorHint">@color/x_hint</item>
+        <item name="android:editTextBackground">@drawable/edit_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
