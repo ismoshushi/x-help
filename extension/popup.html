@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 380px; max-height: 600px; overflow-y: auto;
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+    background: #FFFFFF; color: #0F1419;
+    padding: 16px 12px 12px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header { padding: 4px 8px 12px; }
+  .header h1 { font-size: 20px; font-weight: 800; }
+  .header h1 .uid {
+    font-size: 12px; font-weight: 600; color: #1A8CD8;
+    background: #E7F2FD; border-radius: 999px; padding: 2px 8px;
+    vertical-align: 2px; margin-left: 6px; white-space: nowrap;
+  }
+  .header p { font-size: 12px; color: #536471; margin-top: 2px; }
+  .card { border-radius: 20px; padding: 16px; margin-bottom: 10px; }
+  .tonal { background: #F7F9F9; }
+  .hero { background: #E7F2FD; border-radius: 24px; }
+  .outlined { background: #FFFFFF; border: 1.5px solid #B9DDF8; }
+  .card-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .card-label { font-size: 12px; color: #1A8CD8; font-weight: 600; margin-bottom: 2px; }
+  .hero-num { font-size: 56px; font-weight: 800; line-height: 1.05; letter-spacing: -1px; }
+  .hero-meta { font-size: 12px; color: #536471; margin-top: 6px; }
+  .bars-track { background: #EAF3FB; border-radius: 12px; padding: 12px 10px 8px; margin-top: 8px; }
+  .bars { display: flex; align-items: flex-end; gap: 3px; height: 56px; }
+  .bar { flex: 1; border-radius: 3px; background: #1D9BF0; opacity: 0.75; min-height: 5px; }
+  .bar.now { opacity: 1; background: #1A8CD8; }
+  .bars-axis { display: flex; justify-content: space-between; font-size: 10px; color: #8B98A5; margin-top: 4px; }
+  .grid { display: flex; margin: 10px 0; }
+  .cell { flex: 1; text-align: center; }
+  .cell + .cell { border-left: 1px solid #EFF3F4; }
+  .cell .num { font-size: 22px; font-weight: 800; }
+  .cell .lab { font-size: 11px; color: #536471; margin-top: 2px; }
+  .pub { font-size: 14px; font-weight: 700; color: #1A8CD8; margin-top: 4px; }
+  .snap-time { font-size: 11px; color: #8B98A5; margin-top: 6px; }
+  .wrow {
+    background: #F7F9F9; border-radius: 14px;
+    padding: 10px 14px; margin-bottom: 6px; font-size: 12px;
+  }
+  .wrow .d { font-weight: 700; }
+  .wrow .s { color: #536471; }
+  .wrow .up { color: #1A8CD8; font-weight: 600; }
+  .empty { text-align: center; color: #8B98A5; font-size: 13px; padding: 32px 0; }
+  .foot { text-align: center; font-size: 10px; color: #B0B8C0; margin-top: 4px; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>X Helper<span class="uid" id="uid"></span></h1>
+    <p data-i18n="tagline"></p>
+  </div>
+  <div id="content"><div class="empty" data-i18n="noData"></div></div>
+  <div class="card tonal" style="margin-top:2px">
+    <div class="card-title" style="font-size:13px" data-i18n="jevSettings"></div>
+    <div style="display:flex;gap:6px;margin-top:6px">
+      <input id="jevKey" type="password" data-i18n-ph="jevKeyPlaceholder"
+        style="flex:1;font-size:12px;border:1px solid #CFD9DE;border-radius:10px;padding:7px 10px;outline:none" />
+      <button id="jevSave" data-i18n="jevSave"
+        style="font-size:12px;font-weight:700;color:#fff;background:#1D9BF0;border:none;border-radius:10px;padding:7px 14px;cursor:pointer"></button>
+    </div>
+    <div id="jevStatus" style="font-size:11px;color:#8B98A5;margin-top:6px"></div>
+  </div>
+  <div class="foot">X Helper · <span data-i18n="localOnly"></span></div>
+  <script src="popup.js"></script>
+</body>
+</html>
