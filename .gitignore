@@ -1,0 +1,8 @@
+out/
+*.apk
+local.properties
+.DS_Store
+# 二进制图标/keystore 以 .b64 文本形式存仓库，构建脚本会自动还原
+app/src/main/res/**/ic_launcher*.png
+app/src/main/res/drawable-nodpi/ic_launcher_art.png
+debug.keystore
